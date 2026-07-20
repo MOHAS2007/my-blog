@@ -125,7 +125,9 @@
     background-color: white;
     width: 40%;
     margin: 0 auto;
-    border-radius: 10px;
+    border-radius: 10px;  
+    z-index: 9999; 
+
 
     
 }
