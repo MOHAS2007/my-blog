@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+.one {
+    background-color: #333333;
+}
+.two{background-color: #333333;}
+
+.f {
+    text-align: center;
+    font-family: monospace;
+    font-size: 32px;
+    color: aliceblue;
+    margin-top: 10px;
+
+}
+.subtitle{
+     text-align: center;
+     color: #B3B3B3;
+     font-family: monospace;
+     font-size: 15px;
+}
+.location{
+     text-align: center;
+     color: #B3B3B3;
+     font-family: monospace;
+     font-size: 15px;
+}
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #e0e0e0;
+    font-size: 1.1rem;
+    font-family: 'Arial';
+}
+
+.nav-links a:hover {
+    color:white;
+}
+
+.nav-links a.d {
+     font-weight: bold;
+     border-bottom:3px solid green;
+     padding-bottom: 2px;
+}
+.nav-links a.h {
+     border-bottom:3px solid rgb(0, 70, 128);
+     padding-bottom: 2px;
+}
+.nav-links a.e {
+     border-bottom:3px solid rgb(128, 0, 126);
+     padding-bottom: 2px;
+}
+.nav-links a.g {
+     border-bottom:3px solid rgb(222, 218, 4);
+     padding-bottom: 2px;
+}
+
+.dropdown{
+    position:relative;
+    padding-bottom: 10px;
+    border-bottom:3px solid rgb(9, 218, 211);
+     padding-bottom: 2px;
+}
+
+.dropdown-content{
+    display: none; 
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #2b2b2b;
+    padding: 0;
+    margin: 0;
+    border-radius: 15px;
+
+}
+.dropdown-content li{
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content a {
+    display: block;
+    white-space: nowrap;
+    text-align: center;
+    padding: 12px 16px;
+
+}
+.dropdown-content a:hover {
+    background-color: #3a3a3a; 
+    border-radius: 15px;
+}
+
+
+
+.sp{
+    color:#B3B3B3;
+    text-align: center;
+    font-family:Bangers;
+    letter-spacing: 2px;
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-top: 15px;
+}
+.o{
+    color: #B3B3B3;
+    text-align: center;
+    font-family: lalezar;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.strickly-header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    width: 40%;
+    margin: 0 auto;
+    border-radius: 10px;
+    
+}
+
+.info{
+    background-color: #3a3a3a;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 30px;
+    padding: 25px 0px;
+    position: relative}
+
+.profile{
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: auto auto;
+    height: 200px;
+}
+
+.insta-link {
+  position: absolute;
+  left: 20px;
+  top: 190px;
+  
+}
+
+.insta-logo {
+ width:40px;
+ filter: grayscale(60%) brightness(50%);
+ transition: all 0.3s ease;
+}
+
+.insta-logo:hover {
+  transform: scale(1.1);
+  filter: none;
+}
+.telegram{
+    position: absolute;
+    left: 20px;
+  top: 135px;
+}
+.telegram-logo{
+    width:40px;
+    filter: grayscale(60%) brightness(50%);
+    transition: all 0.3s ease;
+}
+.telegram-logo:hover{
+    transform: scale(1.1);
+  filter: none;
+}
+.dragon{
+    position:fixed;
+    width: 200px;    
+    z-index: -1;
+    right:30px;  
+    transition: 0.3s;   
+}
+.seconddragon{
+    position:fixed;
+    width: 200px;    
+    z-index: -1;
+    left:30px; 
+    margin-top: 100px; 
+        transition: 0.3s;   
+   
+}
+.github-link{
+    position: absolute;
+    left: 20px;
+  top: 20px;
+}
+.github-logo{
+    width:40px;
+    filter: grayscale(30%) brightness(70%); ;
+    transition: all 0.3s ease;
+}
+.github-logo:hover{
+    transform: scale(1.1);
+  filter: none;
+}
+.youtube-link{
+    position: absolute;
+    left: 20px;
+  top: 80px;
+}
+.youtube-logo{
+    width:45px;
+    filter: grayscale(30%) brightness(70%); ;
+    transition: all 0.3s ease;
+}
+.youtube-logo:hover{
+    transform: scale(1.1);
+  filter: none;
+}
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+body {
+    animation-name: fadein;
+    animation-duration: 1s; 
+    animation-timing-function: ease-in; 
+    animation-fill-mode: forwards; 
+}
+.aa{ font-size: 24px;
+    font-weight: bold; 
+    margin-bottom: 10px;
+text-align: center;}
+.bb{font-size: 24px;
+    font-weight: bold; 
+    margin-bottom: 10px;}
+.cc{font-size: 24px;
+    font-weight: bold; 
+    margin-bottom: 10px;}
+.dd{font-size: 24px;
+    font-weight: bold; 
+    margin-bottom: 10px;}
+.ee{font-size: 24px;
+    font-weight: bold; 
+    margin-bottom: 10px;}
+
+.brain {
+    width: 500px;
+    border-radius: 15px;
+    margin-bottom: 0%;
+    padding: 5px;
+    transition: 0.5s;
+}
+
+.maz{
+    margin-top: 15px;
+    display: inline-block;
+    margin-left: 35px; 
+    background-color: #B3B3B3;
+    border-radius: 15px;
+}
+.maz img {
+  display: block;}
+
+.brain:hover{
+     transform: scale(1.05);
+}
+
+.shelf{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+.secondbrain ,.fault{
+    width: 500px;
+    padding:5px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+.seconddiv ,.divfault{
+    display: inline-block;
+    margin-left: 35px; 
+    background-color: #B3B3B3;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+.sbp{
+text-align: center;
+}
+.sbpp{
+text-align: center;
+}
+.asab,.sbp,.fault1{text-align: center;
+margin-bottom: 0px;
+margin-top: 10px;
+font-weight: bold;
+font-family: 'Courier New', Courier, monospace;}
+.asabb,.sbpp,.fault2{text-align: center;
+margin-top: 0px;
+font-family: lalezar;}
+.secondbrain:hover{
+    transform: scale(1.05);
+}
+.profile{
+     outline: 8px solid #00ffcc;
+      outline-offset: 8px; 
+      transition: 0.5s;
+}
+
+.divfault{
+    margin-left: 100px;
+}
+.fault{
+    transition: 0.5s;
+}
+.fault:hover{
+    transform: scale(1.05);
+}
+.profile:hover{
+    transform: scale(1.1);
+}
+.dragon:hover{
+    transform: scale(1.3);
+}
+.seconddragon:hover{
+    transform: scale(1.3);
+}
