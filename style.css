@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+
 .one {
     background-color: #333333;
 }
@@ -363,17 +364,21 @@ font-family: lalezar;}
 }
 .emojie{
     font-size: 30px;
-    padding-left: 15px;padding-right: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .translation{
     display:none;
     direction: rtl;
      color: #555555;
      background-color: #e6f7ff;
-     padding: 5px;
+     padding: 3px;
       margin: 5px 0;
        border-radius: 5px;
        text-align: center;
+       width: 700px;
+       margin: auto auto;
+       font-family:B Nazanin ;
 }
 .translation.show{
 display:block;
@@ -383,4 +388,22 @@ display:block;
 .clickable-sentence:hover .english-text{
     background-color: #f0f0f0;
     border-radius: 4px;
+}
+#hint-message{
+position:fixed;
+direction: rtl;
+z-index: 1000;
+bottom: 30px;
+left: 50%;
+transform: translateX(-50%);
+background-color: #333333;
+color: white;
+padding: 12px 24px;
+border-radius: 25px;
+box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+font-family: lalezar;
+font-size: 16px;
+opacity: 1;
+transition: opacity 1s ease;
+pointer-events: none;
 }
