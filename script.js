@@ -21,3 +21,6 @@ profilePic.addEventListener("click", function() {
 
     profilePic.src = imagesList[currentImageIndex];
 });
+
+
+
