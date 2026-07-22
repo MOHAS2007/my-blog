@@ -4,7 +4,7 @@
 .one {
     background-color: #333333;
 }
-.two{background-color: #333333;}
+.two,.martinbody{background-color: #333333;}
 
 .f {
     text-align: center;
@@ -414,4 +414,9 @@ pointer-events: none;
 }
 .article-container p{
     margin-top:0px;
+}
+
+.partyek {
+display: block;
+margin: 0 auto;
 }
