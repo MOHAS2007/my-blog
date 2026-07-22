@@ -422,7 +422,23 @@ margin: 30px auto;
 border-radius: 8px;
 box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
 transition: box-shadow 0.3s ease;
+margin-bottom: 20px;
 }
 .partyek:hover{
       box-shadow: 0 8px 16px rgba(255, 0, 0, 0.2);
 }
+.videosy{
+    background-color: #1a1a1a;
+    text-align: center;
+    max-width: 560px;
+    margin: 0 auto;
+    color:white;
+    border-radius: 15px;
+    font-family: lalezar;
+    direction: rtl;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    
+}
+.ty{margin-top: 0px;}
+.td{margin-bottom: 0px;}
